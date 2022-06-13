@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/img_1">
+
+
+        <ImageView
+            android:id="@+id/akun"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/profil" />
+
+        <ImageView
+            android:id="@+id/about"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="380dp"
+            android:src="@drawable/about" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_box"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="50dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_user"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/riot" />
+
+        <TextView
+            android:layout_width="205dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="100dp"
+            android:layout_toEndOf="@+id/iv_user"
+            android:layout_toRightOf="@+id/iv_user"
+            android:gravity="bottom"
+            android:text="ZURENT"
+            android:textAllCaps="true"
+            android:textColor="#d13639"
+            android:textColorLink="#090200"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="50dp">
+
+
+        <ImageView
+            android:id="@+id/sewamobil"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:src="@drawable/sewamobil" />
+
+        <TextView
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sewamobil"
+            android:layout_marginLeft="87dp"
+            android:layout_marginTop="-1dp"
+            android:layout_marginRight="11dp"
+            android:text="Sewa Mobil"
+            android:textAlignment="center"
+            android:textColor="#d13639"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="50dp">
+
+
+        <ImageView
+            android:id="@+id/infomobil"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:src="@drawable/infomobil2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/infomobil"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="-1dp"
+            android:layout_marginRight="11dp"
+            android:text="Informasi Mobil"
+            android:textAlignment="center"
+            android:textColor="#d13639"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
